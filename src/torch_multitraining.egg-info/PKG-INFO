@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: torch_multitraining
+Version: 0.0.1
+Summary: A decorator for training on multiple GPUs
+Author-email: Ivan Shivalov <ivansivalov396@gmail.com>
+Project-URL: Homepage, https://github.com/intexcor/pytorch_multitraining
+Project-URL: Issues, https://github.com/intexcor/pytorch_multitraining/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE

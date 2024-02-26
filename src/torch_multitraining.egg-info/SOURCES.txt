@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/torch_multitraining/__init__.py
+src/torch_multitraining/decorators.py
+src/torch_multitraining.egg-info/PKG-INFO
+src/torch_multitraining.egg-info/SOURCES.txt
+src/torch_multitraining.egg-info/dependency_links.txt
+src/torch_multitraining.egg-info/top_level.txt

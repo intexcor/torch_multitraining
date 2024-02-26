@@ -1,12 +1,12 @@
 [project]
-name = "example_package_YOUR_USERNAME_HERE"
+name = "torch_multitraining"
 version = "0.0.1"
 authors = [
   { name="Ivan Shivalov", email="ivansivalov396@gmail.com" },
 ]
 description = "A decorator for training on multiple GPUs"
 readme = "README.md"
-requires-python = "<=3.8"
+requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -14,9 +14,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/intexcor/pytorch-multitraining"
-Issues = "https://github.com/intexcor/pytorch-multitraining/issues"
+Homepage = "https://github.com/intexcor/pytorch_multitraining"
+Issues = "https://github.com/intexcor/pytorch_multitraining/issues"
 
 [build-system]
-requires = ["torch"]
-build-backend = "torch.build"
+requires = ["setuptools>=40.8.0", "torch"]
+build-backend = "setuptools.build_meta:__legacy__"
